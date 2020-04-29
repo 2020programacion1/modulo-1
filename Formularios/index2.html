@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form >
+        <label for="name">Name (4 to 8 characters):</label> 
+        <input type="text" id="name" name="name"  minlength="4" maxlength="8" size="5" >
+<br>
+        <label for="numero">Number:</label>
+        <input type="number" id="numero" name="numero" min="10" max="100" step="0.1">
+<br>
+
+<label for="email">Enter your globex.com email:</label>
+<input type="email" id="email" pattern=".+@unraf.edu.ar.+@gmail.com" size="30" required>
+
+<br>
+<button>Boton simple</button>
+    </form>
+    
+</body>
+</html>
